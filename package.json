@@ -1,0 +1,43 @@
+{
+  "name": "ritzygadgets-inventory",
+  "version": "1.0.0",
+  "description": "ritzygadgets.com",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Tushar Lohar",
+  "license": "ISC",
+  
+ 
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.2",
+    "express": "^4.21.1",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.11",
+    "mongoose-timezone": "^1.3.0",
+    "pdfmake": "^0.1.65"
+  }
+}
